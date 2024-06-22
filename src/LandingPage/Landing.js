@@ -20,7 +20,7 @@ const Landing = () => {
     <Link to="/TicTac" ><Card  path={tictac} title="Tic Tac Toe" content="Outsmart Opponents, Line Up Three" /></Link>
     <Link to="/MatchCard" ><Card  path={MatchCard} title="Luck Test" content="Flip the card - Test your Luck with Lucky test" /></Link>
     <Link to="/DiceGame" ><Card  path={Dicegame} title="Dice Fortune Frenzy" content="Roll, Guess, Win, Repeat - Your Luck Awaits!" /></Link>
-    <Link to="/toh" ><Card  path={Tohlogo} title="Towers of Hannoi" content="Roll, Guess, Win, Repeat - Your Luck Awaits!" /></Link>
+    <Link to="/toh" ><Card  path={Tohlogo} title="Towers of Hannoi" content="Challenge Your mind with Tower Puzzles" /></Link>
       </div>
     </section>
   );
