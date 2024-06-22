@@ -9,6 +9,7 @@ import Ben from './slidingpuzzle/Ben';
 import Tomandjerry from './slidingpuzzle/Tomandjerry';
 import Doremon from './slidingpuzzle/Doremon';
 import MatchCard from './MatchCard/MatchCard';
+import Toh from './Toh/Toh';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 <Route path='/sudoku-solver' element={<SudokuSolver />}/>
 <Route path='/TicTac' element={<TicTac />}/>
 <Route path='/MatchCard' element={<MatchCard />}/>
+<Route path='/Toh' element={<Toh />}/>
 </Routes>
       
     </div>
