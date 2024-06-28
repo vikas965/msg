@@ -15,19 +15,19 @@ const SlidingPuzzle = () => {
       <div className="hero__cards">
         <Link to='/sliding-puzzle/doremon' >
        <div className="card">
-          <img style={{width:'225px' ,height:"225px"
+          <img style={{width:'225px' ,height:"225px",borderRadius:"25px"
           }} src={dore} alt="" />
        </div>
        </Link>
        <Link to='/sliding-puzzle/tomandjerry' >
        <div className="card">
-       <img style={{width:'225px' ,height:"225px"
+       <img style={{width:'225px' ,height:"225px",borderRadius:"25px"
           }} src={tomjerry} alt="" />
        </div>
        </Link>
        <Link to='/sliding-puzzle/ben' >
        <div className="card">
-       <img style={{width:'225px' ,height:"225px"
+       <img style={{width:'225px' ,height:"225px",borderRadius:"25px"
           }} src={ben} alt="" />
        </div>
        </Link>

@@ -43,7 +43,7 @@ const AnimatedDiv = styled.div`
 
 const LandPage = () => {
   return (
-    <div className="bg-gradient-to-r from-black via-limegreen to-blue-900 text-white min-h-screen font-sans">
+    <div id='home' className="bg-gradient-to-r from-black via-limegreen to-blue-900 text-white min-h-screen font-sans">
       {/* Header */}
       
       {/* <div className='h-[10vh] w-auto flex'> */}
@@ -54,8 +54,7 @@ const LandPage = () => {
             <li><a className=' hover:shadow-pink-500 shadow-lg px-2 rounded-full transition transistion colors ' href="#home">Home</a></li>
             <li><a className=' hover:shadow-pink-500 shadow-lg px-2 rounded-full ' href="#features">Features</a></li>
             <li><a className=' hover:shadow-pink-500 shadow-lg px-2 rounded-full ' href="#pricing">Pricing</a></li>
-            <li><a className=' hover:shadow-pink-500 shadow-lg px-2 rounded-full ' href="#about">About</a></li>
-            <li><a className=' hover:shadow-pink-500 shadow-lg px-2 rounded-full gradient-gyn' href="#contact">GameX</a></li>
+            <li><a className=' hover:shadow-pink-500 shadow-lg px-2 rounded-full gradient-gyn' href="#gamex">GameX</a></li>
           </ul>
         </nav>
         <a href="#cta" className="bg-pink-500 px-4 py-2 font-bold text-white rounded-full">M! tokens</a>
@@ -68,12 +67,12 @@ const LandPage = () => {
         <h1 className="text-6xl font-bold mb-4 text-limegreen hy">Welcome to Mitayi</h1>
         <p className="text-2xl mb-6">Multi-game platform with crypto token integration</p>
         <div>
-          <a href="#video" className="bg-white border border-white px-6 py-3 rounded-full border-gray-500 border-2"><span className='gradient-head'>GameX</span></a>
+          <a href="#gamex" className="bg-white border border-white px-6 py-3 rounded-full border-gray-500 border-2"><span className='gradient-head'>GameX</span></a>
         </div>
       </AnimatedSection>
 
       {/* Features Section */}
-      <AnimatedSection id="features" className="pt-20 overflow-x-hidden">
+      <AnimatedSection className="pt-20 overflow-x-hidden">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className='flex items-center flex-col justify-center w-[100vw] gap h-auto'>
             <div className='flex flex-col items-center justify-center w-full h-auto px-4'>
@@ -86,13 +85,13 @@ const LandPage = () => {
         </div>
             </AnimatedDiv>
 
-            <AnimatedDiv className='mb-32'>
+            <AnimatedDiv className='mb-32' id="gamex" >
               <CardSlider/>
             </AnimatedDiv>
 
           
 
-          <AnimatedDiv className="text-center w-full p-6 text-right mb-2 bg-white mb-32 bg-opacity-10 flex items-center justify-around rounded-lg">
+          <AnimatedDiv id="features"  className="text-center w-full p-6 text-right mb-2 bg-white mb-32 bg-opacity-10 flex items-center justify-around rounded-lg">
             <div className='right'>
             <img src={feature1Image} alt="Feature 1" className="h-36 w-36 dp" />
             </div>
