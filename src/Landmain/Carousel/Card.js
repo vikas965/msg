@@ -7,6 +7,7 @@ const Card = ({ title, content, path }) => {
         <img src={path} alt="" />
       <h3 className="card__title">{title}</h3>
       <p className="card__content">{content}</p>
+      <h4 className='shine'>click to play !</h4>
     </div>
   );
 };

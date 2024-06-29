@@ -1,5 +1,5 @@
 import React from 'react';
-import Landing from './LandingPage/Landing';
+import Landing from './Landmain/Carousel/Landing';
 import SlidePuzzle from './slidingpuzzle/SlidePuzzle';
 // import Navbar from './navbar/Navbar';
 import { Routes ,Route } from 'react-router-dom';
@@ -9,7 +9,7 @@ import Ben from './slidingpuzzle/Ben';
 import Tomandjerry from './slidingpuzzle/Tomandjerry';
 import Doremon from './slidingpuzzle/Doremon';
 import MatchCard from './MatchCard/MatchCard';
-
+import Landpage from './Landmain/Landpage'
 import DiceGame from './DiceGame/DiceGame';
 
 import Toh from './Toh/Toh';
@@ -21,7 +21,8 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
 <Routes>
-<Route path='/' element={<Landing />}/>
+<Route path='/land' element={<Landing />}/>
+<Route path='/' element={<Landpage/>}/>
 <Route path='/sliding-puzzle/doremon' element={<Doremon/>}/>
 <Route path='/sliding-puzzle/ben' element={<Ben />}/>
 <Route path='/sliding-puzzle/tomandjerry' element={<Tomandjerry />}/>

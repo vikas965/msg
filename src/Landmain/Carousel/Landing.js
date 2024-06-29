@@ -1,14 +1,15 @@
-
 import React from 'react';
 import Card from './Card';
 import './Landing.css';
 import { Link } from 'react-router-dom';
-import puzzleimg from '../gameimages/slidingpuzzle.jpg'
-import sudoku from '../gameimages/sudoku.jpg'
+import puzzleimg from '../gameimages/slidingpuzzle.png'
+import sudoku from '../gameimages/suduko.png'
 import tictac from '../gameimages/Tic_tac.png'
-import MatchCard from '../gameimages/memory.webp';
+import MatchCard from '../gameimages/memory.png';
 import Dicegame from '../gameimages/dicegame.png';
-import Tohlogo from '../gameimages/TOH.jpeg'
+import Tohlogo from '../gameimages/TOH.png';
+
+
 const Landing = () => {
   return (
     <section className="hero">
